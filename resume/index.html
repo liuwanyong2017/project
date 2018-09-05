@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>刘万永的个人简历</title>
+    <style>
+        html,body{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+        ul,ol{
+            list-style:none;
+        }
+        .head{
+            background:url(beijing.jpg) center center no-repeat;
+            background-size:cover;
+            padding:1em;
+            display:flex;
+            color:blanchedalmond;
+            flex-direction:row-reverse;
+            justify-content:space-around;
+            align-items:center;
+        }
+        .head img{
+
+            width:100px;
+            border-radius:50%;
+            border:2px solid rgba(255,255,255,0.3);
+        } 
+        .clear:after{
+            content:'';
+            display:block;
+            clear:both;
+        }
+        .head .box{
+            display:flex;
+            color:blanchedalmond;
+            flex-direction:column;
+            justify-content:center;
+            text-align:center;
+        }
+        .head h3{
+            font-weight:inherit;
+            margin-top:20px;
+        } 
+        .works {
+            text-align:center;
+            padding:10px;
+            background:linear-gradient(to right bottom,rgb(116, 160, 209),rgb(13, 54, 233));
+        }
+        .works img{
+            max-width:300px;
+            max-height:400px;
+        }
+        .works ul{
+            display:flex;
+            flex-direction:row-reverse;
+            flex-wrap:wrap;
+            justify-content:space-around;
+            align-items:top;
+        }
+        .works li{
+            max-width:300px;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            background:burlywood;
+        }
+        .text{
+            display:flex;
+            flex-wrap:wrap;
+            flex-direction:column;
+            justify-content:flex-start;
+            align-items:flex-start;
+        }
+        .skill {
+            display:flex;
+            background:url('beijing1.png') center center no-repeat ;
+            background-size:cover;
+            justify-content:space-between;
+            padding:10px;
+        }
+        .call{
+            background:url('beijing2.jpg') center center no-repeat;
+            background-size:cover;
+            display:flex;
+            justify-content:space-around;
+            color:rgb(15, 18, 218);
+        }
+    </style>
+</head>
+<body>
+            <section class="head ">
+                <img  src="me.jpg" alt="本人生活照">
+                <div class="box">
+                    <h3>刘万永</h3>
+                    <p>前端工程师</p>
+                    <p>爱生活爱技术</p>  
+                </div>
+            </section>
+            <section class="works">
+                 <h2>我的作品</h2>   
+                 <ul>
+                     <li>
+                        <img src="img/img1.png" alt="音乐主页">
+                        <div class="text">
+                                <p>线上地址：https://liuwanyong2017
+                                    .github.io/musicA/</p>
+                                <p>项目介绍：桌面端自适应音乐网站</p>
+                                <p>项目文档 ：https://github.com/
+                                    liuwanyong2017/musicA</p>
+                                <p>基本功能 :获取音乐分类，播放分类歌曲,
+                                    搜索音乐，收藏音乐，播放收藏音乐</p>
+                                <p>技术栈 ：css3,ajax,jQuery,jsonP,面向对象编程，localstorage</p> 
+                        </div>       
+                     </li>
+                     <li>
+                        <img src="img/img2.png" alt="豆瓣电影">
+                        <div class="text">
+                                <p>线上地址：https://liuwanyong2017
+                                    .github.io/douban/</p>
+                                <p>项目介绍：豆瓣电影移动端网站</p>
+                                <p>项目文档：https://github.com/
+                                    liuwanyong2017/douban</p>
+                                <p>基本功能: 获取两种类型的电影排行，电影简介，搜索相关电影</p>
+                                <p>技术栈  ：ajax,jQuery,事件发布订阅模式,浏览器性能优化，面向对象编程</p> 
+                        </div>
+                          
+                     </li>
+                     <li>
+                        <img src="img/img3.png" alt="自定义轮播组件">
+                        <div class="text">
+                                <p>线上地址：https://liuwanyong2017.github
+                                    .io/project/roll/</p>
+                                <p>项目介绍：自定义的无限轮播组件</p>
+                                <p>项目文档：https://github.com/
+                                    liuwanyong2017
+                                    /project/tree/master/roll</p>
+                                <p>基本功能: 引用对应的css和js文件，按文档格式编辑图片，
+                                    就可以直接定制个性轮播</p>
+                                <p>技术栈  ：jQuery动画,js继承，js封装</p> 
+                        </div>      
+                     </li>
+                     <li>
+                        <img src="img/img4.png" alt="便利贴">
+                        <div class="text">
+                                <p>项目介绍：基于node的全栈项目便利贴</p>
+                                <p>项目简介：webpack打包工具，express后端框架，数据库用的sqlite3模块，less模块处理css，做的node全栈小项目</p>
+                                <p>基本功能: git账号登录验证，增删改查便利贴，瀑布流排版，弹幕功能</p>
+                                <p>技术栈  ：node.js， 路由与接口的约定，js封装，发布订阅模式</p> 
+                        </div> 
+                     </li>
+                 </ul>  
+            </section>
+    
+            <section class="skill">
+                <h2>我的技能</h2>
+                <ol>
+                    <li>静态页面</li>
+                    <li>动态页面</li>
+                    <li>移动端页面</li>
+                    <li>前端框架</li>
+                </ol>
+                <ul>
+                    <li>100%还原设计稿，美观级的页面制作能力。</li>
+                    <li>熟悉http,ajax,JSONP等，了解前后端分离。</li>
+                    <li>了解css3，响应式页面等。</li>
+                    <li>精通jQuery，熟悉node和webpack,能模块化开发代码。</li>
+                </ul>
+            </section>
+            <section class="call">
+                <h2>联系我</h2>
+                <dl>
+                    <dt>邮箱</dt>
+                    <dd><a href="mailto:2674706698@qq.com">2674706698@qq.com</a></dd>  
+                    <dt>微信</dt>
+                    <dd>liuwy2017</dd>
+                    <dt>手机</dt>
+                    <dd>17620338522</dd>
+                </dl>
+            </section>
+</body>
+</html>

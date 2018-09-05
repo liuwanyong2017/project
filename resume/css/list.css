@@ -1,0 +1,17 @@
+.list img{
+    width:128px;
+    height:128px;
+
+}
+.head {
+    background:url('../beijing.png') center center no-repeat;
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color:rgba(255, 255, 255, 0.76);
+}
+.head img{
+    border-radius:45%;
+}
